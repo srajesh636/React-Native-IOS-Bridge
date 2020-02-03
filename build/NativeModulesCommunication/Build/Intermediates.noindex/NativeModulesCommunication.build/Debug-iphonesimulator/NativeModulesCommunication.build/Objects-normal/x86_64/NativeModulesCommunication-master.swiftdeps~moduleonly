@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "13b0db62912d5a24f206aeb8bef02fff"
+build_time: [1580709104, 895798000]
+inputs:
+  "/Users/sai.rajesh/Desktop/native-modules-android/React-Native-Native-Modules-Communication/ios/NativeModulesCommunication/ReactNativeModalViewController.swift": [1580202673, 208663017]
+  "/Users/sai.rajesh/Desktop/native-modules-android/React-Native-Native-Modules-Communication/ios/NativeModulesCommunication/MainViewController.swift": [1578734662, 751454039]
+  "/Users/sai.rajesh/Desktop/native-modules-android/React-Native-Native-Modules-Communication/ios/NativeModulesCommunication/AppDelegate.swift": [1578734662, 750210910]
