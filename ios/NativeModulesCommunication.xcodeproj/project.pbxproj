@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CF033F9243D03E900004375 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CF033F8243D03E900004375 /* main.jsbundle */; };
 		457F8F4B2190DC7F001428DB /* ReactNativeModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F8F4A2190DC7F001428DB /* ReactNativeModalViewController.swift */; };
 		457F8F4F2190DF1B001428DB /* ReactNativeModalBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F8F4E2190DF1B001428DB /* ReactNativeModalBridge.m */; };
 		457F8F522190E1BA001428DB /* ReactNativeEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F8F512190E1BA001428DB /* ReactNativeEvents.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CF033F6243CFCC700004375 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		3CF033F8243D03E900004375 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		3F00E930538D30FD1CB049DE /* Pods-NativeModulesCommunication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModulesCommunication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeModulesCommunication/Pods-NativeModulesCommunication.debug.xcconfig"; sourceTree = "<group>"; };
 		457F8F4A2190DC7F001428DB /* ReactNativeModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeModalViewController.swift; sourceTree = "<group>"; };
 		457F8F4C2190DF1B001428DB /* NativeModulesCommunication-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeModulesCommunication-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 		4591F348218F947D0074F820 = {
 			isa = PBXGroup;
 			children = (
+				3CF033F8243D03E900004375 /* main.jsbundle */,
 				4591F353218F947E0074F820 /* NativeModulesCommunication */,
 				4591F352218F947E0074F820 /* Products */,
 				9855D30B7261FE8EF090E644 /* Pods */,
@@ -90,6 +94,7 @@
 				4591F35B218F947F0074F820 /* Assets.xcassets */,
 				4591F35D218F947F0074F820 /* LaunchScreen.storyboard */,
 				4591F360218F947F0074F820 /* Info.plist */,
+				3CF033F6243CFCC700004375 /* main.jsbundle */,
 			);
 			path = NativeModulesCommunication;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF033F9243D03E900004375 /* main.jsbundle in Resources */,
 				4591F35F218F947F0074F820 /* LaunchScreen.storyboard in Resources */,
 				4591F35C218F947F0074F820 /* Assets.xcassets in Resources */,
 				4591F35A218F947E0074F820 /* Main.storyboard in Resources */,

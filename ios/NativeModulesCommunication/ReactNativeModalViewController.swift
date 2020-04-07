@@ -12,8 +12,12 @@ class ReactNativeModalViewController: UIViewController {
     }
     
     private func setupReactNative() {
+        let jsCodeLocation: URL! =
+ RCTBundleURLProvider.sharedSettings().jsBundleURL(
+     forFallbackResource: "main", fallbackExtension: "jsbundle"
+ )
         let rootView = RCTRootView(
-            bundleURL: URL(string: "http://localhost:8081/index.bundle?platform=ios")!,
+            bundleURL: jsCodeLocation,
             moduleName: "ReactNativeModal",
             initialProperties: nil,
             launchOptions: nil
